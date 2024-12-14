@@ -132,7 +132,7 @@ const GoalTracker = ({ token, username }) => {
     const totalGoals = 21;
     const middlePoint = Math.floor(totalGoals / 2);
 
-    if (yourAchieved >= linkedAchieved && yourAchieved >= middlePoint) {
+    if (yourAchieved >= middlePoint && yourAchieved <= middlePoint) {
       return <img src="https://i.imgur.com/daHUo7Q.gif" alt="BJ" style={{ verticalAlign: 'middle' }} />;
     }
 
